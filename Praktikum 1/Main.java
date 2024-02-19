@@ -1,0 +1,24 @@
+public class Main {
+  // static double counter;
+
+  public static void main(String[] args) {
+    titikCoba t1 = new titikCoba(1, 2);
+    titikCoba t2 = new titikCoba();
+    // new
+    titikCoba t3 = new titikCoba(5, 6);
+
+
+    t2.setAbsis(3);
+    t2.setAbsis(4);
+        
+    System.out.println("t1:" + t1.getAbsis() + ", " + t1.getOrdinat());
+    System.out.println("t2:" + t2.getAbsis() + ", " + t2.getOrdinat());
+    System.out.println("t3:" + t3.getAbsis() + ", " + t3.getOrdinat());
+    System.out.println("Jumlah objek titik yang telah dibuat: " + titikCoba.getCounterTitik());
+    
+    
+    
+
+  }
+  
+}
